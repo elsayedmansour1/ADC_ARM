@@ -1,0 +1,1 @@
+#ifndef _ADC_INTERFACE_H_#define _ADC_INTERFACE_H_void ADC1_SetCallBack(void(*LocPFunc)(void));void MADC_VidINIT(void);void MADC_Start_Conversion(void);void MADC_Get_Result(u32 *ptr);void MADC_Select_Channal(u8 LOC_Channal,u8 LOC_NumOfConversion);void MADC_Interrupt_Enable(void);#endif
